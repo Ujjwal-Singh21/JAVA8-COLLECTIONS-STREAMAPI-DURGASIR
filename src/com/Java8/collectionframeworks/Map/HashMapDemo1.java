@@ -1,5 +1,4 @@
 package com.Java8.collectionframeworks.Map;
-
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
@@ -22,7 +21,7 @@ public class HashMapDemo1 {
         hashMap.put(103, "Bruce");
         hashMap.put(102, "Clarke");
         hashMap.put(101, "Stark");
-//      hashMap.put(null, "One");
+//      hashMap.put(null, "One"); -> 1 null key allowed
 
         System.out.println("Initially: " + hashMap);
 
