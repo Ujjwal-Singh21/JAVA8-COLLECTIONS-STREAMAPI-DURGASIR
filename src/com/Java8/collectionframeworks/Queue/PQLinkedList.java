@@ -3,7 +3,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.RandomAccess;
 
-// 1) LinkedList(C) along with implmenting List(I)
+// 1) LinkedList(C) along with implementing List(I)
 // 2) It also implements Queue(I) also from Java 1.5 version onwards.
 public class PQLinkedList {
     public static void main(String[] args) {

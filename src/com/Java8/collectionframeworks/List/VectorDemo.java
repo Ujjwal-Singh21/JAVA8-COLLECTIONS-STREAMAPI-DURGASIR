@@ -26,7 +26,7 @@ public class VectorDemo {
 
         //finding new capacity now which will be double(20) than initial(10)
         int newCapacity = vector.capacity();
-        System.out.println("Vector Capacity: " + newCapacity);
+        System.out.println("Vector New Capacity: " + newCapacity);
 
         //get elements
         int element = vector.get(3);
@@ -37,7 +37,7 @@ public class VectorDemo {
         //can use both methods to delete
         vector.remove(3);
         vector.removeElementAt(4);
-        System.out.println(vector);
+        System.out.println("After removing: " + vector);
 
         //both can be used to clear all elements
         vector.clear();

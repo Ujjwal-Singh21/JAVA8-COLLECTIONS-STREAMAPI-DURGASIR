@@ -24,11 +24,11 @@ public class LinkedList1 {
         linkedList.add(2);
         System.out.println(linkedList);
 
-        //add an element in the middle
+        //add an element in the middle -> good choice in LL
         linkedList.add(3, 33);
         System.out.println("After inserting: " + linkedList);
 
-        //get elements using index number
+        //get elements using index number -> Bad choice in LL
         int element = linkedList.get(2);
         System.out.println("Element at index no 2: " + element);
 
@@ -63,7 +63,7 @@ public class LinkedList1 {
             System.out.println("Using iterator: " + iterator.next());
         }
 
-        //printing using enhaced for loop
+        //printing using enhanced for loop
         for (Integer i : linkedList) {
             System.out.println("Using Enhanced for loop: " + i);
         }

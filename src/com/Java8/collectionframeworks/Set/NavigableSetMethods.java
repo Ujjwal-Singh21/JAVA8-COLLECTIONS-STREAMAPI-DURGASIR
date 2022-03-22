@@ -16,16 +16,18 @@ public class NavigableSetMethods {
 
         System.out.println("Initially: " + treeSet);
 
-        // method1 -> ceiling()
-        System.out.println("Ceiling: " + treeSet.ceiling(2000));
+        // method1 -> ceiling() -> >=
+        System.out.println("Ceiling 1: " + treeSet.ceiling(1900));
+        System.out.println("Ceiling 2: " + treeSet.ceiling(2000));
 
-        //method2 -> higher()
+        //method2 -> higher() -> >
         System.out.println("Higher: " + treeSet.higher(2000));
 
-        //method3 -> floor()
-        System.out.println("Floor: " + treeSet.floor(3000));
+        //method3 -> floor() -> <=
+        System.out.println("Floor 1: " + treeSet.floor(2900));
+        System.out.println("Floor 2: " + treeSet.floor(3000));
 
-        //method4 -> lower()
+        //method4 -> lower() -> <
         System.out.println("Lower: " + treeSet.lower(3000));
 
         //method5 -> descendingSet()

@@ -6,6 +6,7 @@ import java.util.TreeSet;
 //null allowed but only in an empty TreeSet Object, otherwise -> NullPointerException
 public class TreeSet1 {
     public static void main(String[] args) {
+
         //Without generic
         TreeSet treeSet = new TreeSet<>();
 
@@ -15,7 +16,7 @@ public class TreeSet1 {
         treeSet.add("d");
         treeSet.add("F");
         treeSet.add("a");
-        System.out.println("Treeset: " + treeSet);
+        System.out.println("TreeSet: " + treeSet);
 
         //adding heterogeneous -> ClassCastException
 //        treeSet.add(5);

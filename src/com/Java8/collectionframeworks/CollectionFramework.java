@@ -20,7 +20,7 @@ public class CollectionFramework {
         System.out.println(linkedList instanceof Cloneable);
         System.out.println(vector instanceof Cloneable);
 
-        //Similary all both will be True for Hashset, LinkedHashSet, Treeset
+        //Similar way, both will be True for Hashset, LinkedHashSet, TreeSet
         //HashMap, LinkedHashMap, HashTable, TreeMap.
 
         System.out.println(arrayList instanceof RandomAccess); //True

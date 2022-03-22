@@ -20,6 +20,7 @@ public class ArrayList1 {
         arrayList.add(22);
         arrayList.add(1);
         arrayList.add(null);
+        arrayList.add(null);
         arrayList.add(2);
         System.out.println(arrayList);
 
@@ -62,7 +63,7 @@ public class ArrayList1 {
             System.out.println("Using iterator: " + iterator.next());
         }
 
-        //printing using enhaced for loop
+        //printing using enhanced for loop
         for (Integer i : arrayList) {
             System.out.println("Using Enhanced for loop: " + i);
         }

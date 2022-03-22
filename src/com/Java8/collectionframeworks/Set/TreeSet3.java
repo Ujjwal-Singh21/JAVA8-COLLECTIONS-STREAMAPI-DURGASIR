@@ -9,7 +9,7 @@ public class TreeSet3 {
     public static void main(String[] args) {
         TreeSet<Integer> treeSet = new TreeSet<>();
 
-        //False -> Though insertion order is preserved,
+        //False -> Though Natural order is preserved,
         //But, There is no index numbers available.
         System.out.println(treeSet instanceof RandomAccess);
 
