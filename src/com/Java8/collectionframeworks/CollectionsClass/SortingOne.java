@@ -5,6 +5,7 @@ import java.util.Collections;
 //Natural sorting using Collections class first sort method
 //Objects should be homogeneous and comparable, null values also not allowed.
 //Used to sort List(I) implementation classes.
+//-------------------------------------------------------------------------------
 public class SortingOne {
     public static void main(String[] args) {
         ArrayList<Integer> arrayList = new ArrayList<>();

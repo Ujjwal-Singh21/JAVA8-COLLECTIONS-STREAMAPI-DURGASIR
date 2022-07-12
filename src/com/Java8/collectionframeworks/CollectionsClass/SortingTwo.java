@@ -28,8 +28,8 @@ class MyComparator implements Comparator<Integer> {
 
     @Override
     public int compare(Integer i1, Integer i2) {
-        Integer integer1 = (Integer) i1;
-        Integer integer2 = (Integer) i2;
+        Integer integer1 = i1;
+        Integer integer2 = i2;
 
         return integer2.compareTo(integer1);
 

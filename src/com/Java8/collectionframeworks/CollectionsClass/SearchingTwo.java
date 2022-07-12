@@ -6,6 +6,7 @@ import java.util.Comparator;
 // 1) Using 2nd binarySearch() method of Collections(C) class.
 // 2) returns index no if search is success,  else returns insertionPoint.
 // 3) Make sure to sort the List using 2nd sort() method before passing it to binary search.
+//----------------------------------------------------------------------------------------------
 public class SearchingTwo {
     public static void main(String[] args) {
         ArrayList<Integer> arrayList = new ArrayList<>();
